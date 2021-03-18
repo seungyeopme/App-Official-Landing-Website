@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filter 속성으로 이미지 색상을 자유자재로 변경하기</title>
+    <style>
+        body {
+            background-color: #eee;
+        }
+        .image1 {
+            filter: invert(45%) sepia(70%) saturate(2295%) hue-rotate(174deg) brightness(103%) contrast(106%);
+        }
+        .image2{
+            filter: invert(96%) sepia(94%) saturate(7040%) hue-rotate(65deg) brightness(87%) contrast(82%);
+        }
+        .image3{
+            width: 200px;
+            filter: invert(35%) sepia(59%) saturate(1666%) hue-rotate(337deg) brightness(99%) contrast(84%);
+        }
+    </style>
+</head>
+<body>
+    <img class="image1" src="images/icon-user.png">
+    <hr>
+    <img class="image2" src="images/icon-youtube.png">
+    <hr>
+    <img class="image3" src="images/quotation-mark.svg">
+</body>
+</html>
