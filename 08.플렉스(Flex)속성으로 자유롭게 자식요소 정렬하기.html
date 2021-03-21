@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플렉스(Flex) 속성으로 자유롭게 자식요소 정렬하기</title>
+    <style>
+        .parent1 {
+            border: 5px solid #000;
+            width: 1280px;
+            height: 500px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            /* overflow: hidden; */
+        }
+        .parent1 div {
+            border: 5px solid red;
+            height: 200px;
+            width: 300px;
+
+            /* flex: 1; */
+            /* float: left;
+            width: calc(1280px / 5);
+            box-sizing: border-box; */
+        }
+        .card{
+            border: 1px solid #000;
+            width: 500px;
+            height: 400px;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content {
+            border: 1px solid #000;
+            width: 70%;
+        }
+       
+        .card h1 {
+            margin: 0;
+        }
+
+        .parent2 {
+            border: 5px solid #000;
+            width: 800px;
+            display: flex;
+        }
+        .child1,
+        .child2 {
+            border: 5px solid red;
+            height: 150px;
+            flex: 1;
+        }
+        .child1 {
+            order: 2;
+        }
+        .child2 {
+            order: 1;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <!-- <div class="parent1">
+        <div>child</div>
+         <div>child</div>
+        <div>child</div>
+        <div>child</div>
+        <div>child</div>
+    </div> -->
+
+    <!-- <div class="card">
+        <div class="content">
+            <h1>Card Title</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis nam magnam doloribus temporibus accusantium optio harum ullam, dignissimos sapiente nihil dolores repellat dolorem consequatur quae illo labore commodi, sed autem.
+            </p>
+            <a  href="#none">Read More</a>
+        </div>
+    </div> -->
+
+    <div class="parent2">
+        <div class="child1">child1</div>
+        <div class="child2">child2</div>
+    </div>
+    </body>
+</html>
