@@ -1,0 +1,12 @@
+<a href="javascript:history.back()">뒤로 이동</a>
+<a href="javascript:history.forward()">앞으로 이동</a>
+
+<button onclick="javascript:history.back()">뒤로 이동</button>
+<button onclick="javascript:history.forward()">앞으로 이동</button>
+
+<a href="javascript:location.reload()">새로고침</a>
+<a href="javascript:window.close()">창닫기</a>
+
+<button onclick="location.href='http://www.daum.net'">현재 탭에서 오픈</button>
+
+<button onclick="window.open('http://www.daum.net')">새 탭에서 오픈</button>
