@@ -7,3 +7,7 @@ $('.show-btn').click(function(){
 $('.hide-btn').click(function(){
     $('p').css({'display':'none'});    
 });
+
+$('선택자').click(function(){
+    
+})
