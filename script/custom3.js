@@ -33,3 +33,15 @@ $('.hide-btn').click(function() {
 $('.toggle-btn').click(function(){
     $('.container div').fadeToggle()
 })
+
+$('.add-btn').click(function() {
+    $('.container div').addClass('active')
+})
+
+$('.remove-btn').click(function() {
+    $('.container div').removeClass('active')
+})
+
+$('.toggle-btn').click(function() {
+    $('.container div').toggleClass('active')
+})
