@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>display 속성의 이해도</title>
+    <style>
+       h1 {
+        border: 1px solid #000;
+       }
+       h1:before {
+           content: 'new....';
+           color: red;
+           border: 1px solid green;
+           width: 100px;
+           height: 100px;
+           margin: 20px;
+           position: absolute;
+       }
+       h1:after {
+           content: 'hot';
+           color: blue;
+       }
+    </style>
+</head>
+<body>
+
+    <h1>Headline Text</h1>
+</body>
+</html>
