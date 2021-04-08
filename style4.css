@@ -1,0 +1,19 @@
+.parent {
+    border: 5px solid #000;
+    width: 1280px;
+    overflow: hidden;
+}
+.child {
+    height: 200px;
+    width: calc(1280px / 3);
+    float: left;
+}
+.child:nth-child(1) {
+    background-color: crimson;
+}
+.child:nth-child(2) {
+    background-color: royalblue;
+}
+.child:nth-child(3) {
+    background-color: yellowgreen;
+}

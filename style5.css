@@ -1,0 +1,5 @@
+.container {
+    background-color: yellowgreen;   
+    width: calc(1000px - calc(200px + 100px));
+    height: 200px;
+}

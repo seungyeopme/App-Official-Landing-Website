@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: crimson;
+}
+.container {
+    background-color:yellowgreen;
+    height: calc(100vh - 40px);
+    width: calc(100% - 40px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
