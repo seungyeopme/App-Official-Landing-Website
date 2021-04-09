@@ -1,0 +1,7 @@
+.parent {
+    --pwidth: 300px;
+    width: calc(var(--pwidth) * 2);
+    height: 100px;
+    margin: auto;
+    background-color: crimson;
+}
