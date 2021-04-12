@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>가상클래스의 꽃! before, after</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans+KR&display=swap');
+        @import
+        url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+        body {
+            font-family: 'Noto Sans KR';
+        }
+        .breadcrumb a {
+            color: #000;
+            text-decoration: none;
+        }
+        .breadcrumb a:after {
+            content: '\f105';
+            font-family: fontawesome;
+            margin-left: 5px;
+        }
+        .breadcrumb a:last-child:after {
+            content: '';
+        }
+    
+    
+    </style>
+</head>
+<body>
+   <div class="breadcrumb">
+       <a href="">홈</a>
+       <a href="">전체메뉴</a>
+       <a href="">사각도시락</a>
+       <a href="">모둠시리즈</a>
+   </div>
+</body>
+</html>
