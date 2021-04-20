@@ -44,7 +44,11 @@ body {
 }
 
 /* ############################## Header ############################## */
-header {}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
 .header-inner {
     /* border: 1px solid #000; */
     width: 1300px;
