@@ -9,4 +9,12 @@ $(function(){
         speed: 1000,
         pauseOnHover: false
     });
+
+    /* TypeIt - Welcome */
+    $('#typing').typeIt({
+        strings: ["Business strategy.", "Innovation Plan.", "Creative Idea."],
+        speed: 100,
+        autoStarT: true,
+        breakLines: false,
+    });
 })

@@ -72,7 +72,7 @@ header {
 }
 /* ######################### sectrion : welcome ######################### */
 .welcome {
-    border: 5px solid #000;
+    /* border: 5px solid #000; */
     height: 90vh;
     position: relative;
 }
@@ -126,4 +126,45 @@ header {
 .btn.guide {
     background-color: #fff;
     color: #222;
+}
+
+/* Mouse Wheele */
+.mouse {
+    border: 2px solid #fff;
+    position: absolute;
+    width: 32px;
+    height: 45px;
+    border-radius: 30px;
+    bottom: 100px;
+    left: 250px;
+}
+.wheele {
+    position: absolute;
+    width: 4px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    left: 12px;
+    top: 10px;
+    animation: wheele 1.5s linear infinite;
+}
+@keyframes wheele {
+    0% {
+        top: 10px;
+    }
+    50% {
+        top: 20px;
+    }
+    100% {
+        top: 10px;
+    }
+}
+
+/* ######################### Slick Custom CSS ######################### */
+.slideshow .slick-arrow {
+    border: 1px solid #000;
+    display: none !important;
+}
+.slideshow * {
+    outline: none;
 }
