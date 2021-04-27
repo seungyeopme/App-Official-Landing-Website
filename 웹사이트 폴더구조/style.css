@@ -214,6 +214,7 @@ header {
 }
 .access-content {
     padding: 50px 0;
+    padding-bottom: 0;
     overflow: hidden;
 }
 .access-content > div{
@@ -227,12 +228,18 @@ header {
 .access-right {
     text-align: center;
 }
+.access-right img {
+    display: block;
+    float: right;
+}
 .btn-download {
     margin-top: 30px;
 }
 /* ######################### section : banner ######################### */
 .banner {
-    background: linear-gradient(to right, #69acfe, #69acfe);
+    /* background: linear-gradient(to right, #69acfe, #69acfe); */
+    background: url(images/wave-line.png) no-repeat center right 100px, linear-gradient(to right, #69acfe, #69acfe);
+    background-size: 80px;
 }
 .banner-inner {
     width: 1300px;
@@ -271,6 +278,7 @@ input[name=tabmenu] {
 }
 .tab-btn label em img {
     width: 60px;
+    filter: invert(54%) sepia(98%) saturate(605%) hue-rotate(188deg) brightness(102%) contrast(99%);
 }
 .tab-btn label span {
     display: block;
@@ -294,6 +302,21 @@ input[id=tab1]:checked ~ .tabs .tab1,
 input[id=tab2]:checked ~ .tabs .tab2,
 input[id=tab3]:checked ~ .tabs .tab3 {
     display: block;
+}
+input[id=tab1]:checked ~ .tab-btn label[for=tab1] em,
+input[id=tab2]:checked ~ .tab-btn label[for=tab2] em,
+input[id=tab3]:checked ~ .tab-btn label[for=tab3] em {
+    background-color: #34495e;
+}
+input[id=tab1]:checked ~ .tab-btn label[for=tab1] em img,
+input[id=tab2]:checked ~ .tab-btn label[for=tab2] em img,
+input[id=tab3]:checked ~ .tab-btn label[for=tab3] em img {
+    filter: invert();
+}
+input[id=tab1]:checked ~ .tab-btn label[for=tab1] span,
+input[id=tab2]:checked ~ .tab-btn label[for=tab2] span,
+input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
+    color: #34495e;
 }
 /* ######################### Slick Custom CSS ######################### */
 .slideshow .slick-arrow {
