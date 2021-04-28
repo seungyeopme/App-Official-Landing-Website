@@ -16,6 +16,20 @@
     font-style: normal;
 }
 
+/* Section Display */
+header { display: none; }
+.welcome { display: none; }
+.ceo-access { display: none; }
+.banner { display: none; }
+/* .feature { display: none; } */
+.vision { display: none; }
+.faq { display: none; }
+.review { display: none; }
+.focus { display: none; }
+.guide { display: none; }
+.news { display: none; }
+footer { display: none; }
+
 /* Reset CSS */
 * {
     box-sizing: border-box;
@@ -33,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.5em;
 }
 
-/* Default Css */
+/* Default CSS */
 body {
     font-family: 'NEXON Lv2 Gothic', sans-serif;
     font-size: 18px;
@@ -42,6 +56,9 @@ body {
     background-color: #fff;
     color: #222;
 }
+
+/* Common CSS */
+
 
 /* ############################## Header ############################## */
 header {
