@@ -58,7 +58,28 @@ body {
 }
 
 /* Common CSS */
-
+.headline-share {
+    text-align: center;
+}
+.headline-share h1 {
+    font-size: 44px;
+    position: relative;
+    /* border: 1px solid #000; */
+    padding-bottom: 20px;
+}
+.headline-share h1:after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    width: 80px;
+    background: linear-gradient(to right, #1f8de6, #5ed6fe);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);   
+}
+.headline-share p {
+    font-size: 20px;
+}
 
 /* ############################## Header ############################## */
 header {
@@ -253,6 +274,29 @@ header {
     margin-top: 30px;
 }
 /* ######################### section : banner ######################### */
+.feature {}
+.feature-inner {
+    width: 1300px;
+    margin: auto;
+}
+.feature-content {
+    overflow: hidden;
+    margin: 150px 0;
+}
+.feature-content > div {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.feature-mockup {}
+.feature-about {
+    padding: 0 70px;
+    padding-top: 80px;
+}
+.feature-about h2 {
+    font-size: 30px;
+}
+.feature-about {}
 .banner {
     /* background: linear-gradient(to right, #69acfe, #69acfe); */
     background: url(images/wave-line.png) no-repeat center right 100px, linear-gradient(to right, #69acfe, #69acfe);
