@@ -387,3 +387,53 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
 .slideshow * {
     outline: none;
 }
+
+/* ######################### section : vision ######################### */
+.vision {}
+.vision-inner {}
+.vision-content {
+    overflow: hidden;
+}
+.vision-content > div {
+    /* border: 1px solid red; */
+    float: left;
+    width: 33.33333333%;
+    height: 400px;
+}
+.vision-item-desc {
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision-item-headline {
+    /* border: 1px solid #000; */
+    width: 60%;
+}
+.vision-item-desc h3 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+.vision-item-desc hr {
+    width: 45px;
+    height: 3px;
+    border: none;
+    background-color: #9b59b6;
+    /* float: left; */
+    display: inline-block;
+}
+.vision-item-desc p {
+    /* clear: both; */
+    margin-top: 0;
+}
+.vision-item-photo {
+    /* border: 5px solid red; */
+    /* background: url(images/vision-01.jpg) no-repeat center center;
+    background-size: cover; */
+}
+.vision-item-photo img {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
