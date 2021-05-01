@@ -22,8 +22,8 @@ header { display: none; }
 .ceo-access { display: none; }
 .banner { display: none; }
 .feature { display: none; }
-/* .vision { display: none; } */
-.faq { display: none; }
+.vision { display: none; }
+/* .faq { display: none; } */
 .review { display: none; }
 .focus { display: none; }
 .guide { display: none; }
@@ -437,3 +437,4 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
     object-fit: cover;
 }
 
+/* ######################### section : faq ######################### */
