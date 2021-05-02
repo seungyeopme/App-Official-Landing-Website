@@ -445,12 +445,33 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
 }
 .faq-content {}
 .faq-content > div {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     float: left;
     width: 50%;
     padding: 25px;
 }
+
+/* faq-accordion */
 .faq-accordion {}
+.faq-item {
+    border: 1px solid #7dbeff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.faq-item > div {
+    padding: 15px;
+}
+.faq-title {
+    color: #4c98e4;
+    cursor: pointer;
+}
+.faq-title:after {
+    content: '\f105';
+    font-family: fontawesome;
+    float: right;
+    color: #444;
+}
+.faq-desc {}
 
 /* awards-content */
 .awards-content {
