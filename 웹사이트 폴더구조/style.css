@@ -2,7 +2,7 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
 /* XEION CDN */
-@import url('http//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 
 /* Web Fonts - Source Sans Pro */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans+KR&display=swap');
@@ -24,8 +24,8 @@ header { display: none; }
 .feature { display: none; }
 .vision { display: none; }
 .faq { display: none; }
-/* .review { display: none; } */
-.focus { display: none; }
+.review { display: none; }
+/* .focus { display: none; } */
 .guide { display: none; }
 .news { display: none; }
 footer { display: none; }
@@ -557,6 +557,38 @@ h1.slogan {
 .review-slider div p span {
     display: block;
     font-weight: bold;
+}
+
+/* ######################### section : focus ######################### */
+.focus {}
+.focus-inner {
+    width: 1300px;
+    margin: auto;
+}
+.focus-content {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding: 50px 0;
+}
+.focus-item {
+    display: inline-block;
+    width: 30%;
+    padding: 0 50px;
+}
+.focus-item img {
+    width: 75px;
+    filter: invert(96%) sepia(5%) saturate(3160%) hue-rotate(304deg) brightness(91%) contrast(96%);
+}
+.focus-item h3 {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.focus-item i {
+    /* font-size: 5px; */
+    transform: scale(0.5) rotate(45deg);
+}
+.focus-item p {
+    margin-top: 0;
 }
 
 /* ######################### Slick Custom CSS ######################### */
