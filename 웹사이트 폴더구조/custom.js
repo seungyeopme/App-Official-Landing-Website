@@ -10,6 +10,14 @@ $(function(){
         pauseOnHover: false
     });
 
+    /* Slick - Review */
+    $('.review-slider').slick({
+        infinite: true,
+        dots: true,
+        autoplay: true,
+        autoplayuSpeed: 2000,
+    });
+
     /* TypeIt - Welcome */
     $('#typing').typeIt({
         strings: ["Business strategy.", "Innovation Plan.", "Creative Idea."],

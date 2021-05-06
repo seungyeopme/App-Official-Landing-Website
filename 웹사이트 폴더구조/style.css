@@ -56,6 +56,9 @@ body {
     background-color: #fff;
     color: #222;
 }
+section {
+    padding: 100px 0;
+}
 
 /* Common CSS */
 .headline-share {
@@ -534,4 +537,32 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
     background-color: crimson;
     /* border: none; */
     border-color: transparent;
+}
+
+/* ######################### section : review ######################### */
+.review {
+    background-color: #f9f9f9;
+}
+.review-inner {
+    width: 1300px;
+    margin: auto;
+}
+.review-content {
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+h1.slogan {
+    font-size: 36px;
+}
+.review-slider {}
+.review-slider div {
+    outline: none;
+}
+.review-slider div p {
+    padding: 0 70px;
+}
+.review-slider div p span {
+    display: block;
+    font-weight: bold;
 }
