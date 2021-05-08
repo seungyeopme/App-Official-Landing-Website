@@ -11,7 +11,7 @@ $(function(){
     });
 
     /* Slick - Review */
-    $('.review-slider').slick({
+    $('.review-slider, .mockup-slider').slick({
         infinite: true,
         dots: true,
         autoplay: true,

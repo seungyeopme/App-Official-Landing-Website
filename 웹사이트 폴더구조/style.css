@@ -614,9 +614,20 @@ h1.slogan {
 .slider-mockup {
     /* border: 5px solid red; */
     display: inline-block;
+    position: relative;
 }
 .round-mockup {}
-.mockup-slider {}
+.mockup-slider {
+    /* border: 2px solid red; */
+    position: absolute;
+    width: 85%;
+    height: 550px;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 .guide-video h1 {
     font-size: 38px;
@@ -695,4 +706,17 @@ h1.slogan {
 .review-slider .slick-next:before {
     transform: rotateY(180deg);
     display: block;
+}
+
+.mockup-slider .slick-arrow {
+    display: none !important;
+}
+
+.mockup-slider .slick-dots {
+    /* border: 1px solid #000; */
+    bottom: 10px;
+}
+
+.mockup-slider .slick-dots li {
+    margin: 0;
 }
