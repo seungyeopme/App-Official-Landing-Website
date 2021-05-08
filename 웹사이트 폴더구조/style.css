@@ -592,6 +592,66 @@ h1.slogan {
 }
 
 /* ######################### section : guide ######################### */
+.guide {}
+.guide-inner {
+    width: 1300px;
+    margin: auto;
+}
+.guide-content {
+    border: 1px solid #000;
+    overflow: hidden;
+}
+.guide-content > div {
+    float: left;
+}
+.guide-slider {
+    width: 40%;
+    text-align: center;
+}
+.guide-video {
+    width: 60%;
+}
+.slider-mockup {
+    /* border: 5px solid red; */
+    display: inline-block;
+}
+.round-mockup {}
+.mockup-slider {}
+
+.guide-video h1 {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+.guide-video h1 span {
+    color: #eb4d4b;
+}
+.video-headline {
+    font-size: 34px;
+}
+.video-headline img {
+    vertical-align: middle;
+    margin-top: -5px;
+}
+.video-frame {
+    width: 530px;
+    height: 370px;
+    position: relative;
+}
+.video-frame img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.video-frame .fa {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 80px;
+    opacity: 0.5;
+}
 
 /* ######################### Slick Custom CSS ######################### */
 .slideshow .slick-arrow {
