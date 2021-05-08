@@ -56,6 +56,9 @@ body {
     background-color: #fff;
     color: #222;
 }
+body.active {
+    overflow: hidden;
+}
 section {
     padding: 100px 0;
 }
@@ -662,6 +665,35 @@ h1.slogan {
     color: #fff;
     font-size: 80px;
     opacity: 0.5;
+    cursor: pointer;
+}
+/* ######################### Video Modal ######################### */
+.video-modal {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.close-modal {
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.video-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.video-content iframe {
+    width: 800px;
+    height: 450px;
 }
 
 /* ######################### Slick Custom CSS ######################### */
