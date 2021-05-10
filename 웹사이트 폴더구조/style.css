@@ -26,8 +26,8 @@ header { display: none; }
 .faq { display: none; }
 .review { display: none; }
 .focus { display: none; }
-/* .guide { display: none; } */
-.news { display: none; }
+.guide { display: none; }
+/* .news { display: none; } */
 footer { display: none; }
 
 /* Reset CSS */
@@ -667,6 +667,44 @@ h1.slogan {
     opacity: 0.5;
     cursor: pointer;
 }
+
+/* ######################### section : news ######################### */
+.news {
+    background-color: #f9f9f9;
+}
+.news-inner {
+    width: 1300px;
+    margin: auto;
+    /* text-align: center; */
+}
+.news-content {
+    overflow: hidden;
+}
+.news-content > div {
+    float: left;
+    border: 1px solid #000;
+    width: 50%;
+}
+.news-left {}
+.news-right {}
+
+.btn-readmore {
+    background-color: #7b9acc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    /* display: inline-block; */
+    display: block;
+    width: 180px;
+    text-align: center;
+    /* height: 40px;
+    line-height: 40px; */
+    padding: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
 /* ######################### Video Modal ######################### */
 .video-modal {
     background-color: #000;
