@@ -686,6 +686,55 @@ h1.slogan {
     width: 50%;
 }
 .news-left {}
+.news-big {
+    width: 550px;
+    height: 550px;
+    position: relative;
+}
+.news-big:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: .5s;
+}
+.news-big:hover:before {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.news-big img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.news-headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    width: 80%;
+}
+.news-headline h2 {
+    font-size: 32px;
+}
+.news-headline p {}
+.date {
+    display: block;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.btn-view {
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
 .news-right {}
 
 .btn-readmore {
