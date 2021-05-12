@@ -736,7 +736,40 @@ h1.slogan {
 }
 
 .news-right {}
-
+.news-items {}
+.news-thum {
+    /* border: 2px solid red; */
+    width: 280px;
+}
+.news-photo {
+    border: 2px solid red;
+    display: inline-block;
+    position: relative;
+}
+.news-photo img {
+    display: block;
+}
+.news-thum p {
+    margin-top: 0;
+}
+.news-thum .date {
+    float: right;
+}
+.badge {
+    position: absolute;
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    padding: 0 5px;
+}
+.badge.new {
+    /* display: none; */
+    background-color: #000;
+}
+.badge.hot {
+    background-color: crimson;
+}
 .btn-readmore {
     background-color: #7b9acc;
     color: #fff;
