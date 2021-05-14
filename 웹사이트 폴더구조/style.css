@@ -27,8 +27,8 @@ header { display: none; }
 .review { display: none; }
 .focus { display: none; }
 .guide { display: none; }
-/* .news { display: none; } */
-footer { display: none; }
+.news { display: none; }
+/* footer { display: none; } */
 
 /* Reset CSS */
 * {
@@ -804,6 +804,8 @@ h1.slogan {
     font-weight: bold;
     margin: auto;
 }
+
+/* ######################### Footer ######################### */
 
 /* ######################### Video Modal ######################### */
 .video-modal {
