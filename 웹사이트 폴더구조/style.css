@@ -17,7 +17,7 @@
 }
 
 /* Section Display */
-header { display: none; }
+/* header { display: none; }
 .welcome { display: none; }
 .ceo-access { display: none; }
 .banner { display: none; }
@@ -27,7 +27,7 @@ header { display: none; }
 .review { display: none; }
 .focus { display: none; }
 .guide { display: none; }
-.news { display: none; }
+.news { display: none; } */
 /* footer { display: none; } */
 
 /* Reset CSS */
@@ -806,7 +806,81 @@ h1.slogan {
 }
 
 /* ######################### Footer ######################### */
-
+footer {
+    background-color: #21325b;
+    color: #bdbdbd;
+    font-size: 14px;
+    padding: 60px 0;
+}
+.footer-inner {
+    width: 1300px;
+    margin: auto;
+}
+.footer-content {
+    overflow: hidden;
+}
+.footer-content > div {
+    float: left;
+}
+.footer-logo {
+    width: 15%;
+}
+.copyright {
+    width: 85%;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+}
+.footer-logo img {
+    filter: grayscale(1);
+}
+.policy-sns {
+    overflow: hidden;
+    border-bottom: 1px solid #32456e;
+    padding-bottom: 20px;
+}
+.policy {
+    float: left;
+    /* border: 1px solid #000; */
+}
+.policy span:first-child a {
+    color: #bdbdbd;
+}
+.policy span:first-child a:hover {
+    /* text-decoration: underline; */
+}
+.policy span:first-child em {
+    font-style: normal;
+    margin: 10px;
+    color: #777;
+}
+.policy span:last-child {
+    display: block;
+}
+.sns {
+    float: right;
+    /* border: 1px solid #000; */
+}
+.sns i {
+    color: #fff;
+    font-size: 15px;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    background: #37466c;
+    text-align: center;
+    line-height: 25px;
+    margin: 1px;
+    transition: 0.5s;
+}
+.sns i:hover {
+    background-color: #000;
+}
+.address {
+    padding-top: 20px;
+}
+.address span {
+    display: block;
+}
 /* ######################### Video Modal ######################### */
 .video-modal {
     background-color: #000;
