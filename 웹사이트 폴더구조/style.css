@@ -48,6 +48,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Default CSS */
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'NEXON Lv2 Gothic', sans-serif;
     font-size: 18px;
@@ -60,7 +63,7 @@ body.active {
     overflow: hidden;
 }
 section {
-    padding: 100px 0;
+    padding: 130px 0;
 }
 
 /* Common CSS */
@@ -92,6 +95,7 @@ header {
     position: fixed;
     width: 100%;
     z-index: 10;
+    /* background-color: red; */
 }
 .header-inner {
     /* border: 1px solid #000; */
@@ -207,7 +211,7 @@ header {
 
 /* ######################### section : ceo-access ######################### */
 .ceo-access {
-    padding: 0;
+    padding-bottom: 0;
 }
 .ceo-inner,
 .access-inner {
@@ -392,7 +396,8 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
 
 /* ######################### section : vision ######################### */
 .vision {
-    padding: 0;
+    padding-bottom: 0;
+    padding-top: 150px;
 }
 .vision-inner {}
 .vision-content {
@@ -442,7 +447,9 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
 }
 
 /* ######################### section : faq ######################### */
-.faq {}
+.faq {
+    padding-bottom: 700px;
+}
 .faq-inner {
     width: 1300px;
     margin: auto;
@@ -898,6 +905,7 @@ footer {
     top: 0;
     left: 0;
     display: none;
+    z-index: 10000;
 }
 .close-modal {
     color: #fff;
