@@ -89,13 +89,35 @@ section {
 .headline-share p {
     font-size: 20px;
 }
+.btn-top {
+    position: fixed;
+    /* border: 1px solid red;*/
+    right: 20px;
+    bottom: -50px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    line-height: 43px;
+    text-align: center;
+    transition: 0.5s;
+}
+.btn-top.active {
+    bottom: 20px;
+}
 
 /* ############################## Header ############################## */
 header {
     position: fixed;
     width: 100%;
     z-index: 10;
+    transition: 0.5s;
     /* background-color: red; */
+}
+header.active {
+    background-color: #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.05);
 }
 .header-inner {
     /* border: 1px solid #000; */

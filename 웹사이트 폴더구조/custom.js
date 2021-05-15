@@ -27,8 +27,18 @@ $(function(){
     });
 })
 
-/* Faq Accordion */
 $(function(){
+    /* Header Scroll Change */
+    $(window).scroll(function() {
+        if ($(window).scrollTop() > 50) {
+            $('header, .btn-top').addClass('active')
+        }
+        else {
+            $('header, .btn-top').removeClass('active')
+        }
+    })
+
+    /* Faq Accordion */
     $('.faq-desc').eq(0).show()
     $('.faq-title').click(function(){
         $(this).next().stop().slideDown()
