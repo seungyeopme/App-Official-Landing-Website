@@ -119,6 +119,7 @@ header {
     /* border: 5px solid #000; */
     height: 90vh;
     position: relative;
+    padding: 0;
 }
 .slideshow {}
 .welcome-heading {
@@ -205,7 +206,9 @@ header {
 }
 
 /* ######################### section : ceo-access ######################### */
-.ceo-access {}
+.ceo-access {
+    padding: 0;
+}
 .ceo-inner,
 .access-inner {
     width: 1300px;
@@ -307,6 +310,7 @@ header {
     /* background: linear-gradient(to right, #69acfe, #69acfe); */
     background: url(images/wave-line.png) no-repeat center right 100px, linear-gradient(to right, #69acfe, #69acfe);
     background-size: 80px;
+    padding: 0;
 }
 .banner-inner {
     width: 1300px;
@@ -387,7 +391,9 @@ input[id=tab3]:checked ~ .tab-btn label[for=tab3] span {
 }
 
 /* ######################### section : vision ######################### */
-.vision {}
+.vision {
+    padding: 0;
+}
 .vision-inner {}
 .vision-content {
     overflow: hidden;
@@ -595,13 +601,15 @@ h1.slogan {
 }
 
 /* ######################### section : guide ######################### */
-.guide {}
+.guide {
+    padding-top: 0;
+}
 .guide-inner {
     width: 1300px;
     margin: auto;
 }
 .guide-content {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     overflow: hidden;
 }
 .guide-content > div {
