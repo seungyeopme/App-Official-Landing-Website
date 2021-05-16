@@ -25,6 +25,14 @@ $(function(){
         autoStarT: true,
         breakLines: false,
     });
+
+    /* Wow Scroll Reveal Animation */
+    wow = new WOW({
+        boxClass: 'wow',
+        offset: 150,
+        mobile: true
+    })
+    wow.init()
 })
 
 $(function(){
