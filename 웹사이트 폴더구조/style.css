@@ -17,8 +17,8 @@
 }
 
 /* Section Display */
-header { display: none; }
-/* .welcome { display: none; }
+/* header { display: none; }
+.welcome { display: none; }
 .ceo-access { display: none; }
 .banner { display: none; }
 .feature { display: none; }
@@ -297,6 +297,9 @@ header.active {
 .access-left {
     padding-right: 50px;
     padding-top: 80px;
+}
+.access-left h2 {
+    font-size: 34px;
 }
 .access-right {
     text-align: center;

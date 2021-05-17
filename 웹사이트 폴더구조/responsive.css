@@ -36,3 +36,44 @@
     left: 50%;
     transform: translateX(-50%); */
 }
+
+/* ######################### sectrion : ceo-access ######################### */
+.ceo-inner,
+.access-inner {
+    width: 100%;
+    /* margin: auto; */
+    /* border: 1px solid #000; */
+}
+.ceo-content > div {
+    float: none;
+    width: 100%;
+    /* text-align: center; */
+}
+.ceo-left {
+    padding-right: 0;
+}
+.ceo-right > div {
+    float: none;
+    width: 100%;
+}
+.access-content > div {
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.access-left {
+    padding-right: 0;
+    padding-top: 20px;
+}
+.access-left h2 {
+    font-size: 28px;
+}
+.btn-download {
+    margin-bottom: 50px;
+}
+.btn-download img {
+    height: 50px;
+}
+.access-right img {
+    width: 100%;
+}
