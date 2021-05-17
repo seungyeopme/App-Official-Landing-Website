@@ -17,8 +17,8 @@
 }
 
 /* Section Display */
-/* header { display: none; }
-.welcome { display: none; }
+header { display: none; }
+/* .welcome { display: none; }
 .ceo-access { display: none; }
 .banner { display: none; }
 .feature { display: none; }
@@ -27,8 +27,8 @@
 .review { display: none; }
 .focus { display: none; }
 .guide { display: none; }
-.news { display: none; } */
-/* footer { display: none; } */
+.news { display: none; }
+footer { display: none; } */
 
 /* Reset CSS */
 * {
@@ -143,7 +143,7 @@ header.active {
 /* ######################### sectrion : welcome ######################### */
 .welcome {
     /* border: 5px solid #000; */
-    height: 90vh;
+    height: 100vh;
     position: relative;
     padding: 0;
 }
