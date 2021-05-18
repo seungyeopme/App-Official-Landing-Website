@@ -77,3 +77,37 @@
 .access-right img {
     width: 100%;
 }
+
+/* ######################### section : banner ######################### */
+.banner {
+    padding-top: 30px;
+    background: linear-gradient(to right, #69acfe, #69acfe);
+    /* background-position: right 20px bottom 20px; */
+}
+.banner-inner {
+    width: 100%;
+}
+.banner-content > div {
+    /* border: 1px solid #000; */
+    float: none;
+    width: 100%;
+}
+.tab-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tab-btn label {
+    width: 27%;
+}
+.tab-btn label em {
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+}
+.tab {
+    padding: 20px;
+    text-align: center;
+}
+.tab h2 {
+    font-size: 26px;
+}
