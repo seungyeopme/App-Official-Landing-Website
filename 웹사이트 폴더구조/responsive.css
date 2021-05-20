@@ -6,6 +6,13 @@
     section {
         padding: 50px 15px;
     }
+    /* Common CSS */
+    .headline-share h1 {
+        font-size: 32px;
+    }
+    .headline-share p {
+        padding: 0 20px;
+    }
 }
 
 /* ######################### sectrion : welcome ######################### */
@@ -110,4 +117,36 @@
 }
 .tab h2 {
     font-size: 26px;
+}
+
+/* ######################### section : banner ######################### */
+.feature-inner {
+    width: 100%;
+}
+.feature-mockup img {
+    width: 100%;
+}
+.feature-content {
+    margin: 50px 0;
+}
+.feature-content > div {
+    float: none;
+    width: 100%;
+}
+.feature-about {
+    padding: 0 10px;
+    padding-top: 80px;
+}
+.feature-about h2 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Change Order with Flex */
+.feature-content.flex-order {
+    display: flex;
+    flex-direction: column;
+}
+.feature-content.flex-order > div:first-child {
+    order: 1;
 }
