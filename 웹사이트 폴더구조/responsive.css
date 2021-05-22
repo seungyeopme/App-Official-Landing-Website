@@ -8,7 +8,7 @@
     }
     /* Common CSS */
     .headline-share h1 {
-        font-size: 28px;
+        font-size: 32px;
     }
     .headline-share p {
         padding: 0 20px;
@@ -197,4 +197,15 @@ h1.slogan {
 }
 .review-slider .slick-arrow {
     display: none !important;
+}
+
+/* ######################### section : review ######################### */
+.focus-inner {
+    width: 100%;
+}
+.focus-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 0 20px;
 }
