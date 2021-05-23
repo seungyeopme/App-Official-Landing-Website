@@ -238,3 +238,46 @@ h1.slogan {
     width: 100%;
     height: 300px;
 }
+
+/* ######################### section : news ######################### */
+.news {
+    /* padding-top: 80px;
+    padding-bottom: 80px; */
+    padding: 80px 15px;
+}
+.news-inner {
+    width: 100%;
+}
+.news-content > div {
+    float: none;
+    width: 100%;
+}
+.news-left {
+    margin-bottom: 15px;
+}
+.news-big {
+    width: 100%;
+    height: 450px;
+}
+.news-items {
+    margin-bottom: 0;
+}
+.news-thum {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.news-photo {
+    display: block;
+}
+.news-photo img {
+    /* border: 2px solid red; */
+    width: 100%;
+}
+.news-thum p {
+    margin-top: 10px;
+}
+.news-thum .date {
+    /* border: 1px solid red; */
+    margin-top: 0px;
+    float: left;
+}
