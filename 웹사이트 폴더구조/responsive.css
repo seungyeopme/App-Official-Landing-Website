@@ -15,6 +15,54 @@
     }
 }
 
+/* ######################### header ######################### */
+.header-inner {
+    width: 100%;
+}
+.logo {
+    float: right;
+    margin-right: 20px;
+}
+.gnb {
+    float: none;
+    background-color: #fff;
+    position: fixed;
+    height: 100vh;
+    width: 250px;
+    top: 0;
+    left: -270px;
+    box-shadow: 3px 0 3px rgba(0, 0, 0, 0.1);
+    padding-top: 70px;
+    padding-left: 15px;
+    transition: 0.5s;
+}
+.gnb.active {
+    left: 0;
+}
+.gnb a {
+    display: block;
+}
+
+/* Trigger */
+.trigger {
+    /* border: 1px solid red; */
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    font-size: 28px;
+    text-align: center;
+    /* cursor: pointer; */
+}
+.trigger::before {
+    content: '\e91c';
+    font-family: xeicon;
+}
+.trigger.active::before {
+    content: '\e9af';
+}
+
 /* ######################### sectrion : welcome ######################### */
 .welcome {
     background-color: #f9f9f9;

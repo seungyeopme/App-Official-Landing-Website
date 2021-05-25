@@ -64,4 +64,10 @@ $('.close-modal').click(function(){
         $('.video-modal').fadeOut()
         $('body').removeClass('active')
     })
+
+    /* Header Trigger */
+    $('.trigger').click(function(){
+        $(this).toggleClass('active')
+    })
+
 })
