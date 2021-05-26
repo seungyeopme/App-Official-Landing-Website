@@ -68,6 +68,9 @@ $('.close-modal').click(function(){
     /* Header Trigger */
     $('.trigger').click(function(){
         $(this).toggleClass('active')
+        $('.gnb').toggleClass('active')
     })
-
+    $('.gnb a, section').click(function(){
+        $('.gnb, .trigger').removeClass('active')
+    })
 })

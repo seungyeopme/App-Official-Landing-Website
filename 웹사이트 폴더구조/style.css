@@ -177,6 +177,17 @@ header.active {
     margin-bottom: 50px;
 }
 .welcome-btns {}
+.welcome-btns.btn {
+    /* border: 1px solid #000; */
+    /* display: inline-block;
+    width: 160px;
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.5s */
+   
+}
 .btn {
     /* border: 1px solid #000; */
     display: inline-block;
@@ -186,6 +197,8 @@ header.active {
     border-radius: 5px;
     margin: 5px;
     transition: 0.5s;
+     /* height: 70px;
+    line-height: 70px; */
 }
 .btn:hover {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -194,7 +207,7 @@ header.active {
 .btn.start {
     background-color: #0abde3;
 }
-.btn.guide {
+.btn.guide1 {
     background-color: #fff;
     color: #222;
 }
